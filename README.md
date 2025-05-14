@@ -2,3 +2,5 @@ Task was to predict the probability of various defects on steel plates. Submissi
 To calculate the final score, AUC was calculated for each of the 7 defect categories and then averaged.
 
 The dataset for this competition (both train and test) was generated from a deep learning model trained on the Steel Plates Faults dataset from UCI. Feature distributions are close to, but not exactly the same, as the original.
+
+No feature engineering was performed. Stacked several gradient boosting classifiers with different hyperparameters.
